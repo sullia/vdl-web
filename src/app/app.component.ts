@@ -39,6 +39,7 @@ export class AppComponent {
       this.categories[1].subCategories[2].displayName = trans['side-nav-bar'].corruptionMenu;
       this.categories[1].subCategories[3].displayName = trans['side-nav-bar'].dateTimeMenu;
       this.categories[1].subCategories[4].displayName = trans['side-nav-bar'].overlapMenu;
+      this.categories[1].subCategories[5].displayName = trans['side-nav-bar'].currencyMenu;
       this.categories[2].displayName = trans['side-nav-bar'].supportMenu;
     });
   }
@@ -53,6 +54,7 @@ export class AppComponent {
         { displayName: 'Corruption', route: 'corruption', icon: 'fa-language' },
         { displayName: 'Date/Time', route: 'datetime', icon: 'fa-calendar' },
         { displayName: 'Overlapping', route: 'overlapping', icon: 'fa-exchange' },
+        { displayName: 'Currency', route: 'currency', icon: 'fa-money' },
       ]
     },
     { displayName: 'Support', route: 'support', icon: 'fa-question' },

@@ -14,6 +14,7 @@ import { TruncationComponent } from './truncation/truncation.component';
 import { CorruptionComponent } from './corruption/corruption.component';
 import { DatetimeComponent } from './datetime/datetime.component';
 import { OverlappingComponent } from './overlapping/overlapping.component';
+import { CurrencyComponent } from './currency/currency.component';
 import { HomeComponent } from './home/home.component';
 
 // For Translation
@@ -29,6 +30,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     CorruptionComponent,
     DatetimeComponent,
     OverlappingComponent,
+    CurrencyComponent,
     HomeComponent,
   ],
   imports: [
